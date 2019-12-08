@@ -1,11 +1,11 @@
 # Site settings
-author: Erin Stansbury
-title: 
+author: Erin
+title: Front End 101
 header-img: img/home-bg.png
 email: ekstansbury@gmail.com
-copyright_name: Erin Stansbury
+copyright_name: Erin
 description: > # this means to ignore newlines until "baseurl:"
-  
+  lessons in git, ruby, JS, react
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  erinstansbury
