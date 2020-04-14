@@ -11,7 +11,7 @@ For this portfolio project the goal was to create a ruby gem and scrape a site f
 [The example project can be found here](https://github.com/learn-co-curriculum/daily_deal)
 
 
-When trying to think about what I would want to create, I was hesitant to accidentally use what others had created un the past, ie Kickstarter, Top Restaurants, etc. Something I thought would be a bit timely would be to create a CLI that would return the latest statistics on the coronavirus pandemic. 
+When trying to think about what I would want to create, I was hesitant to accidentally use what others had created in the past, ie Kickstarter, Top Restaurants, etc. Something I thought would be a bit timely would be to create a CLI that would return the latest statistics on the coronavirus pandemic. 
 
 
 [](https://giphy.com/gifs/6dRsQSNHU3Cla/html5)
@@ -24,6 +24,7 @@ Firstly, I began to plan out the project and understand what statistics I would 
 * The number of people who have recovered from coronavirus
 
 From there, I wanted to drill in a bit further. If the user wants to see more detailed data about the cases, it would then display:
+**The number of reported cases worldwide**  ->
 * The number of currently affected patients
 * The number of cases in mild condition
 * The number of cases in a serious condition
