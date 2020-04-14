@@ -16,4 +16,43 @@ When trying to think about what I would want to create, I was hesitant to accide
 
 [](https://giphy.com/gifs/6dRsQSNHU3Cla/html5)
 
-[](https://imgur.com/a/dG8VNvP)
+Firstly, I began to plan out the project and understand what statistics I would like to display to the user. These were the stats I was going to scrape then display:
+
+* The Top 10 countries with the most people affected
+* The number of reported cases worldwide
+* The number of deaths caused by the coronavirus
+* The number of people who have recovered from coronavirus
+
+From there, I wanted to drill in a bit further. If the user wants to see more detailed data about the cases, it would then display:
+* The number of currently affected patients
+* The number of cases in mild condition
+* The number of cases in a serious condition
+
+
+When I began the CLI, I wanted to make sure that after the proper data was printed, the user was prompted again if they wanted to see more virus statistics.
+
+```
+    def self.menu
+        puts "-- Type 'cases' for the number of confirmed cases worldwide"
+        puts "-- Type 'deaths' for the number of Covid-related deaths worldwide"
+        puts "-- Type 'recovered' for the number of reported virus recoveries"
+        puts "-- Type 'top' for the list of the top ten countries affected by Covid"
+        puts "To exit, just type 'exit'"
+        input = gets.strip.downcase
+    
+        if input == "cases"
+            Scraper.scrape_worldwide
+        elsif input == "deaths"
+            Scraper.scrape_deaths
+            Scraper.prompt
+        elsif input == "recovered"
+            Scraper.scrape_recovered
+            Scraper.prompt
+        elsif input == "top"
+            Scraper.scrape_countries
+            Scraper.prompt
+        else input == "exit"
+            Scraper.goodbye
+        end
+    end
+```
