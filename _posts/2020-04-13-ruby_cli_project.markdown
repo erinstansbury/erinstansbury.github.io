@@ -16,4 +16,4 @@ When trying to think about what I would want to create, I was hesitant to accide
 
 [](https://giphy.com/gifs/6dRsQSNHU3Cla/html5)
 
-![](https://imgur.com/a/dG8VNvP)
+[](https://imgur.com/a/dG8VNvP)
