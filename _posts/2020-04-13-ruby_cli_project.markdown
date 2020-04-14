@@ -13,6 +13,7 @@ For this portfolio project the goal was to create a ruby gem and scrape a site f
 
 When trying to think about what I would want to create, I was hesitant to accidentally use what others had created un the past, ie Kickstarter, Top Restaurants, etc. Something I thought would be a bit timely would be to create a CLI that would return the latest statistics on the coronavirus pandemic. 
 
-![graph](https://media.giphy.com/media/6dRsQSNHU3Cla/giphy.gif)
 
 [](https://giphy.com/gifs/6dRsQSNHU3Cla/html5)
+
+![](https://imgur.com/a/dG8VNvP)
