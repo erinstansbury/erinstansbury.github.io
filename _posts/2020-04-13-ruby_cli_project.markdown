@@ -57,3 +57,12 @@ When I began the CLI, I wanted to make sure that after the proper data was print
         end
     end
 ```
+
+As you can see here, the user will be displayed the statistics they had chosen, then prompted again or they can select exit to which they will see:
+
+```
+def self.goodbye
+       puts "* * Wash your hands and remember we are all in this together! * *"   
+end
+
+```
